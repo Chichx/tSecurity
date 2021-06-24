@@ -1,0 +1,13 @@
+config:
+  onlyconsole: "false"
+  logger: "true" 
+  permission: "tsecurity.alert" 
+  ban_after: "5"   
+  ban_command: "tsecurity ban %ip%"  
+  players:  
+    - "player"
+  accounts-ip:
+    player:
+      - "1.27.0.01"
+  banned_ips:
+    - "12.12.12.12"
