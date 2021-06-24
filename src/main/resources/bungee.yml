@@ -1,0 +1,4 @@
+name: tSecurity
+version: ${project.version}
+main: dev.gaston.tsecurity.Main
+author: Gaston

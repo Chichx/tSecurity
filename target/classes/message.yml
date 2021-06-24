@@ -1,0 +1,55 @@
+message:
+  prefix: "&6[tSecurity] "
+  nopermission: "&cYou dont have permissions to use this command."
+  noconsole: "&cYou cant not execute this command."
+  alert: "&cThe ip: %ip% , try to join with the account: %account%"  #alert when a player failed to join with the wrong ip
+  kick: "&cSorry but you cant join the server." ##kicked message.
+  reload: "&aPlugin reloaded successfully"
+  ips: "&a%ip_int% IP's has been loaded."
+  default_banned_message: "&cYour ip is not allowed on the server"
+  added:
+    arguments: "&cnot enough arguments, use: /tsecurity add <ip> <player>"
+    success: "&aPlayer: %player% has been added to the list with the ip %ip%"
+  remove:
+    arguments: "&cnot enough arguments, use: /tsecurity remove <player> <ip>"
+    success: "&cPlayer %player% has been removed from the list."
+    error: "&cThis Player is not in the list."
+  ban:
+    arguments: "&cnot enough arguments, use: /tsecurity ban <ip>"
+    success:  "&aYou banned the ip: %ip%"
+    already: "&aThis IP Address is already banned"
+  unban:
+    arguments: "&cnot enough arguments, use: /tsecurity unban <ip>"
+    success:  "&aYou unban the ip: %ip%"
+    error: "&aThis IP Address is not banned"
+  addip:
+    arguments: "&cnot enough arguments, use: /tsecurity addip <player> <ip>"
+    success: "&aYou have been add the IP: %ip% to the accounts %player%"
+    already: "&cThis IP is already in the list."
+    error: "&cThis user is not in the list of protected accounts."
+  removeip:
+    arguments: "&cnot enough arguments, use: /tsecurity removeip <player> <ip>"
+    success:  "&aYou have been remove the ip: %ip% from the accounts %player%"
+    error: "&aThis IP is not in the list, use /tsecurity listip %player%"
+    errorv2: "&aThis user is not in the list of protected accounts."
+  listip:
+    arguments: "&cnot enough arguments, use: /tsecurity listip <player>"
+    header: "&7&m-------------------"
+    rows: "&a%ip%"
+    footer: "&7&m-------------------"
+    error: "&cThis user is not in the list of protected accounts."
+  purge:
+    arguments: "&cnot enough arguments, use: /tsecurity purge <player>"
+    success: "&aYou clean all history of %player%"
+    error: "&cThis Player is not in the list of protected accounts."
+  history:
+    notenable: "&cEnable logger in config to use this command."
+    arguments: "&cnot enough arguments, use: /tsecurity history <player>"
+    error: "&cThis Player is not in the list of protected accounts."
+    nohistory: "&cThere isnt any histories of this player yet."
+    header: "&7&m-------------------"
+    footer: "&7&m-------------------"
+  list:
+    header: "&7&m-------------------"
+    rows: "%player%"
+    footer: "&7&m-------------------"
